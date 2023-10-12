@@ -7,7 +7,7 @@
         <h3 class="product-name">{{ product.name }}</h3>
         <p class="product-description">{{ product.description }}</p>
         <p class="product-price">{{ product.price }}</p> 
-        <button class="button">Compre agora pelo whatsapp</button>
+        <button id="openLinkButton" class="button">Compre agora pelo whatsapp</button>
       </div>
   </div>
   <button class="button-show" v-if="showAllButton" @click="showAllProducts">Ver Todos os produtos</button>
@@ -160,6 +160,10 @@ export default {
       ],
     };
   },
+  mounted() {
+    document.getElementById('openLinkButton').addEventListener('click', this.openLink);
+  },
+
   computed: {
     filteredProducts() {
       if (this.showAllProductsData) {
@@ -173,6 +177,11 @@ export default {
     },
   },
   methods: {
+
+    openLink () {
+      const url = 'https://wa.me/5555981291170';
+      window.open(url, '_blank');
+    },
     showAllProducts() {
       this.showAllProductsData = true;
     },
