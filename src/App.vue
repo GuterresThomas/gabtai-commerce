@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloMessage.vue';
 import ProductGrid from './components/ProductGrid.vue';
-import footer from './components/footer.vue';
+import Footer from './components/footer.vue'
 import Banner from './components/Banner.vue';
 import TextDavines from './components/TextDavines.vue'
 </script>
