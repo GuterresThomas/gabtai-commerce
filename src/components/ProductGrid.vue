@@ -21,77 +21,17 @@ export default {
     return {
       showAllProductsData: false,
       products: [
-        {
+        /* {
           name: "Hair Mask Heart of glass",
           description: "Para todos os tipos de cabelo, livre de parabenos.",
           price: "R$ 279,00",
           image: "/produto1.jpg",
         },
         {
-          name: "Oi oil 50 ml",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 269,00",
-          image: "/produto2.jpg",
-        },
-        {
-          name: "Oi shampoo 280ml",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 236,00",
-          image: "/produto3.jpg",
-        },
-        {
-          name: "Oi conditioner",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 269,00",
-          image: "/produto4.jpg",
-        },
-        {
-          name: "Mask Authentic moisturizing",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 249,00",
-          image: "/produto5.webp",
-        },
-        {
-          name: "Authentic Butter",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 299,00",
-          image: "/produto6.jpg",
-        },
-        {
-          name: "Energizing Shampoo",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 239,00",
-          image: "/produto7.webp",
-        },
-        {
           name: "Smoothing Conditioner Love",
           description: "Para todos os tipos de cabelo, livre de parabenos",
           price: "R$ 239,00",
           image: "/produto8.jpg",
-        },
-        {
-          name: "Smoothing Shampoo Love",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 219,00",
-          image: "/produto9.jpg",
-        },
-        {
-          name: "Conditioner Momo",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 269,00",
-          image: "/produto10.jpg",
-        },
-        {
-          name: "Shampoo Momo",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 199,00",
-          image: "/produto11.jpg",
-        },
-        {
-          name: "Shampoo Nourishing",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 250,00",
-          image: "/produto12.jpg",
         },
         {
           name: "Conditioner Nourishing",
@@ -106,56 +46,125 @@ export default {
           image: "/produto14.webp",
         },
         {
-          name: "Shampoo Nounou",
+          name: "Smoothing Shampoo Love",
           description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 250,00",
-          image: "/produto15.jpg",
-        },
-        {
-          name: "Conditioner Nounou",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 250,00",
-          image: "/produto16.jpg",
-        },
-        {
-          name: "Hair Mask Nounou",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 250,00",
-          image: "/produto17.jpg",
-        },
-        {
-          name: "Hair Butter Oi",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 250,00",
-          image: "/produto18.jpg",
-        },
-        {
-          name: "Kit Travell Size Nounou",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 250,00",
-          image: "/produto19.webp",
-        },
-        {
-          name: "Kit Travell Size Oi",
-          description: "Para todos os tipos de cabelo, livre de parabenos",
-          price: "R$ 250,00",
-          image: "/produto20.webp",
+          price: "R$ 219,00",
+          image: "/produto9.jpg",
         },
         {
           name: "Shampoo Bar Dede",
           description: "Para todos os tipos de cabelo, livre de parabenos",
           price: "R$ 250,00",
           image: "/produto21.jpg",
-        },
-        {
-          name: "Shampoo Bar Momo",
+        }, 
+         {
+          name: "Hair Mask Nounou",
           description: "Para todos os tipos de cabelo, livre de parabenos",
           price: "R$ 250,00",
+          image: "/produto17.jpg",
+        },
+        */
+        {
+          name: "Oi oil 50 ml",
+          description: "Óleo para todos os cabelos, sem parabenos. Nutrição profunda.",
+          price: "R$ 219,90",
+          image: "/produto2.jpg",
+        },
+        {
+          name: "Oi shampoo 280ml",
+          description: "Shampoo nutritivo para todos os tipos de cabelo.",
+          price: "R$ 199,00",
+          image: "/produto3.jpg",
+        },
+        {
+          name: "Oi conditioner 250ml",
+          description: " Condicionador de cabelo para hidratação profunda.",
+          price: "R$ 239,90",
+          image: "/produto4.jpg",
+        },
+        {
+          name: "Hair Butter Oi 250ml",
+          description: "Manteiga capilar para nutrição intensa.",
+          price: "R$ 289,90",
+          image: "/produto18.jpg",
+        },
+        {
+          name: "Oi all in one milk 50ml",
+          description: "Leave-in capilar versátil para todos os cabelos.",
+          price: "R$ 179,90",
+          image: "/produto23.jpg",
+        },
+        {
+          name: "Kit travel size Oi 90ml",
+          description: "Conjunto de viagem Oi, para nutrição intensa.",
+          price: "R$ 179,90",
+          image: "/produto20.webp",
+        },
+        {
+          name: "Mask Authentic moisturizing 150g",
+          description: "Máscara hidratante para todos os tipos de cabelo.",
+          price: "R$ 179,00",
+          image: "/produto5.webp",
+        },
+        {
+          name: "Authentic Butter 200g",
+          description: "Manteiga para nutrição.",
+          price: "R$ 279,90",
+          image: "/produto6.jpg",
+        },
+        {
+          name: "Energizing Shampoo 250ml",
+          description: "desenvolvido para couro cabeludo frágil e com tendência a queda.",
+          price: "R$ 199,90",
+          image: "/produto7.webp",
+        },
+        
+        {
+          name: "Shampoo Momo 250ml",
+          description: "ideal para cabelos secos e desidratados.",
+          price: "R$ 189,90",
+          image: "/produto11.jpg",
+        },
+
+        {
+          name: "Conditioner Momo 250ml",
+          description: "ideal para cabelos secos e desidratados, proporciona brilho intenso e maciez.",
+          price: "R$ 199,90",
+          image: "/produto10.jpg",
+        },
+
+        {
+          name: "Shampoo Bar Momo 100g",
+          description: "ideal para cabelos secos e desidratados, proporcionando maciez e brilho.",
+          price: "R$ 99,90",
           image: "/produto22.jpg",
         },
 
+        {
+          name: "Shampoo Nourishing 250ml",
+          description: " Limpa delicadamente proporcionando um efeito nutritivo e revitalizante imediato.",
+          price: "R$ 219,00",
+          image: "/produto12.jpg",
+        },
+        {
+          name: "Shampoo Nounou 250ml",
+          description: "proporciona nutrição profunda, hidratação e devolvendo uma maciez excepcional",
+          price: "R$ 179,90",
+          image: "/produto15.jpg",
+        },
+        {
+          name: "Conditioner Nounou 250ml",
+          description: "proporciona nutrição profunda, hidratação e devolvendo uma maciez excepcional",
+          price: "R$ 199,90",
+          image: "/produto16.jpg",
+        },
+        {
+          name: "Kit travel size Nounou 75ml",
+          description: "proporciona nutrição profunda, hidratação e devolvendo uma maciez excepcional",
+          price: "R$ 179,90",
+          image: "/produto19.webp",
+        },
         
-
 
       ],
     };
